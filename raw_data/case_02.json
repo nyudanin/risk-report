@@ -1,0 +1,30 @@
+{
+    "complete_flag": true,
+    "mib_code_list": [],
+    "outcome": "Super Preferred",
+    "rho_flag": false,
+    "summary": {
+        "aud_list": [],
+        "aud_list_details": {
+            "Other Anemia": {
+                "refer_flag": false,
+                "decline_flag": false,
+                "mortality_rating": 0,
+                "flat_extras": [],
+                "flat_extras_count": 0,
+                "tobacco_flag": false,
+                "risk_class_reduction": null,
+                "additional_details":{
+                    "triggers": ["LPQ HGB"],
+                    "overrides": {"mortality_rating_override": false, "refer_override": true, "override_sources": ["ExamOne LabPiQture"]}
+                }
+            }
+        },
+        "decline_flag": false,
+        "flat_extras": [],
+        "mortality_rating": 0,
+        "refer_flag": false,
+        "risk_class": "Super Preferred",
+        "tobacco_flag": false
+    }
+}

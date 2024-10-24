@@ -1,0 +1,43 @@
+{
+    "complete_flag": true,
+    "mib_code_list": [],
+    "outcome": "Refer",
+    "rho_flag": false,
+    "summary": {
+        "aud_list": ["Milliman Rx/Dx","EHR"],
+        "aud_list_details": {
+            "Milliman Rx/Dx": {
+                "refer_flag": false,
+                "decline_flag": false,
+                "mortality_rating": 0,
+                "flat_extras": [],
+                "flat_extras_count": 0,
+                "tobacco_flag": false,
+                "risk_class_reduction": null,
+                "additional_details":{
+                    "adverse_findings": ["Type 2 Diabetes, Non-Insulin - single medication, Prior"],
+                    "triggers": ["EHR A1c"],
+                    "overrides": {"mortality_rating_override": false, "refer_override": true, "override_sources": ["EHR"]}
+                }
+            },
+            "EHR": {
+                "refer_flag": false,
+                "decline_flag": false,
+                "mortality_rating": 100,
+                "flat_extras": [],
+                "flat_extras_count": 0,
+                "tobacco_flag": false,
+                "risk_class_reduction": null,
+                "additional_details":{
+                    "adverse_findings": ["A1c"]
+                }
+            }
+        },
+        "decline_flag": false,
+        "flat_extras": [],
+        "mortality_rating": 100,
+        "refer_flag": false,
+        "risk_class": "Super Preferred",
+        "tobacco_flag": false
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "complete_flag": true,
+    "mib_code_list": [
+        "532#EL",
+        "712#EL"
+    ],
+    "outcome": "Refer",
+    "rho_flag": false,
+    "summary": {
+        "aud_list": [
+            "Hyperthryoidism",
+            "Milliman Rx/Dx"
+        ],
+        "aud_list_details": {
+            "Hyperthryoidism": {
+                "refer_flag": true,
+                "decline_flag": false,
+                "mortality_rating": 0,
+                "flat_extras": [],
+                "flat_extras_count": 0,
+                "tobacco_flag": false,
+                "risk_class_reduction": null,
+                "additional_details":{}
+            },
+            "Milliman Rx/Dx": {
+                "refer_flag": true,
+                "decline_flag": false,
+                "mortality_rating": 0,
+                "flat_extras": [],
+                "flat_extras_count": 0,
+                "tobacco_flag": false,
+                "risk_class_reduction": null,
+                "additional_details":{
+                    "adverse_findings": ["Moderate to Severe Ulcerative Colitis or Crohn Disease Likely, No Modifier"]
+                }
+            }
+        },
+        "decline_flag": false,
+        "flat_extras": [],
+        "mortality_rating": 0,
+        "refer_flag": true,
+        "risk_class": "Super Preferred",
+        "tobacco_flag": false
+    }
+}
